@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Regras de backup para API 31+. O QR Code é excluído do backup em
+    nuvem (cloud-backup) pelo mesmo motivo de segurança descrito em
+    backup_rules.xml, mas é incluído na transferência direta entre
+    dispositivos (device-transfer), já que esse mecanismo é local,
+    criptografado ponta a ponta e usado pelo próprio usuário ao trocar
+    de aparelho.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="qr_code.png" />
+        <exclude domain="sharedpref" path="qr_acesso_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="qr_code.png" />
+        <include domain="sharedpref" path="qr_acesso_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>

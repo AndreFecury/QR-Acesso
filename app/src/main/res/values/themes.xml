@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Tema base da plataforma (fora do Compose): garante que a
+        primeira pintura da janela já seja branca, sem flash, antes
+        mesmo de o Compose assumir o controle. Não depende da
+        biblioteca com.google.android.material, mantendo o número de
+        dependências baixo.
+    -->
+    <style name="Theme.QRAcesso" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+</resources>

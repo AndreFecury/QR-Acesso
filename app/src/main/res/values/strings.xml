@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Acesso</string>
+
+    <string name="empty_state_title">Seu QR Code</string>
+    <string name="empty_state_description">Adicione uma imagem contendo seu QR Code de acesso.</string>
+    <string name="action_select_image">Selecionar imagem</string>
+
+    <string name="processing_image">Processando imagem…</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">OK</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_dismiss">Entendi</string>
+    <string name="action_try_another_image">Tentar outra imagem</string>
+    <string name="action_use_original_anyway">Usar mesmo assim</string>
+
+    <string name="qr_code_content_description">QR Code de acesso</string>
+    <string name="qr_code_candidate_content_description">QR Code encontrado</string>
+
+    <string name="error_invalid_image">Não foi possível utilizar essa imagem.</string>
+    <string name="error_generic">Ocorreu um problema inesperado.</string>
+
+    <string name="multiple_qr_codes_title">Encontramos mais de um QR Code. Toque no código correto.</string>
+
+    <string name="settings_change_qr_code">Alterar QR Code</string>
+    <string name="settings_semester_label">Semestre (opcional)</string>
+    <string name="settings_semester_placeholder">Ex.: 2026/2</string>
+    <string name="settings_brightness_boost">Aumentar brilho ao exibir QR Code</string>
+    <string name="settings_brightness_boost_description">Facilita a leitura do código pela catraca.</string>
+    <string name="settings_about">Sobre o aplicativo</string>
+    <string name="settings_about_description">O QR Acesso armazena localmente o QR Code de acesso fornecido por você e o exibe rapidamente, sem conexão com a internet e sem compartilhar dados com terceiros.</string>
+    <string name="settings_delete_qr_code">Excluir QR Code</string>
+    <string name="settings_delete_confirmation_message">O QR Code armazenado será removido do aplicativo. Essa ação não pode ser desfeita.</string>
+
+    <string name="widget_label">QR Acesso</string>
+    <string name="widget_empty_label">Abra o app para configurar</string>
+    <string name="widget_description">Mostra seu QR Code de acesso.</string>
+
+    <string name="shortcut_show_qr_short">Mostrar QR Code</string>
+    <string name="shortcut_show_qr_long">Mostrar QR Code de acesso</string>
+</resources>

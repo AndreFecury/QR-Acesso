@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Regras de backup para API < 31. O QR Code representa um
+    credencial de acesso: por decisão de segurança, ele NÃO é incluído
+    no backup automático em nuvem do Android (ver README, seção
+    "Decisões de segurança e privacidade").
+-->
+<full-backup-content>
+    <exclude domain="file" path="qr_code.png" />
+    <exclude domain="sharedpref" path="qr_acesso_prefs.xml" />
+</full-backup-content>
