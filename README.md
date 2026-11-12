@@ -11,6 +11,8 @@ O QR Code da catraca da faculdade em tela cheia, assim que você abre o app. Sem
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![ML Kit](https://img.shields.io/badge/ML_Kit-FF6F00?style=for-the-badge&logo=google&logoColor=white)
 
+[![Baixar APK](https://img.shields.io/badge/Baixar_APK-v1.0.0-5EE6A8?style=for-the-badge&logo=android&logoColor=black)](../../releases/latest)
+
 </div>
 
 ## Sobre
@@ -74,6 +76,12 @@ A tela principal é uma máquina de estados (`NO_QR_CODE`, `IMPORTING`, `PROCESS
 | Build | Gradle Kotlin DSL + catálogo de versões |
 | Testes | JUnit 4, Robolectric, Compose UI Test |
 | Compatibilidade | Android 8.0+ (minSdk 26, targetSdk 36) |
+
+## Como instalar
+
+1. Baixe o `QR-Acesso.apk` na [página de releases](../../releases/latest), direto no celular.
+2. Se o Android pedir, permita a instalação de apps de fontes desconhecidas.
+3. Abra o APK e toque em **Instalar**.
 
 ## Como compilar
 
